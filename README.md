@@ -1,4 +1,4 @@
-# Transport Complaint Agent — Phase 1
+# Transport Complaint Agent
 
 An AI Multi-Agent system for collecting and managing public transport complaints.
 
@@ -94,7 +94,7 @@ npm run dev
 | `status` | VARCHAR(20) | Pending / In Progress / Resolved |
 | `created_at` | DATETIME | Submission timestamp |
 
-## ✨ Features (Phase 1)
+## ✨ Features
 
 - ✅ Responsive dark-theme UI with glassmorphism
 - ✅ Multi-step complaint form with validation
