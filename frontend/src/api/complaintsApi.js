@@ -15,7 +15,9 @@
  */
 import axios from 'axios'
 
-const API_BASE_URL = 'https://transport-complaint-agent.onrender.com'
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://transport-complaint-agent.onrender.com";
 
 // Admin credentials from Vite environment variables
 // Set VITE_ADMIN_USERNAME / VITE_ADMIN_PASSWORD in frontend/.env
