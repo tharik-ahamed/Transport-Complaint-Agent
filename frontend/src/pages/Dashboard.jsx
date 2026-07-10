@@ -240,7 +240,7 @@ function IntelligencePanel({ complaint, onClose, onRefresh }) {
       {/* Header */}
       <div style={{ padding: '18px 22px', borderBottom: '1px solid #1e293b', display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'sticky', top: 0, background: '#0f172a', zIndex: 10 }}>
         <div>
-          <div style={{ color: '#6366f1', fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Intelligence · Phase 3+4</div>
+          
           <div style={{ color: '#f1f5f9', fontSize: 16, fontWeight: 700 }}>{complaint.complaint_id}</div>
         </div>
         <button onClick={onClose} style={{ background: '#1e293b', border: '1px solid #334155', color: '#94a3b8', borderRadius: 8, width: 32, height: 32, cursor: 'pointer', fontSize: 16, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>✕</button>
